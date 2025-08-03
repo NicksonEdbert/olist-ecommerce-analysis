@@ -19,7 +19,9 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
     * Discussed and implemented the `.dropna()` method to handle missing values in the `products` table.
     * Clarified the workflow difference between "profiling for discovery" (in the lab) and "profiling for verification" (after cleaning).
     * Established a "session log" to track progress and create a motivational feedback loop.
-    * 
+    * Create the reusable cleaning function for the Products table.
+    * Learn how to import functions from folders properly, how to use if __name__ == '__main__', and how to use parquet.
+    * Created run_cleaning_pipeline.py to streamline the data cleaning pipeline.
 
 * ** **
     * * *
