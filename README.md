@@ -13,13 +13,13 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
 *   **Modular Project Structure:** Separating data preparation logic from analysis for a clean, reproducible, and scalable workflow.
 *   **Version Control & Documentation:** Using Git/GitHub for version control and maintaining clear documentation in a README.
 
-## How to Run This Project
+## Progress Log
 
-### Prerequisites
-*   Python 3.8+
-*   A virtual environment tool (like `venv`)
+* **August 3, 2025**
+    * Discussed and implemented the `.dropna()` method to handle missing values in the `products` table.
+    * Clarified the workflow difference between "profiling for discovery" (in the lab) and "profiling for verification" (after cleaning).
+    * Established a "session log" to track progress and create a motivational feedback loop.
+    * 
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/olist-ecommerce-analysis.git
-cd olist-ecommerce-analysis
+* ** **
+    * * *
