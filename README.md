@@ -20,8 +20,9 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
     * Clarified the workflow difference between "profiling for discovery" (in the lab) and "profiling for verification" (after cleaning).
     * Established a "session log" to track progress and create a motivational feedback loop.
     * Create the reusable cleaning function for the Products table.
-    * Learn how to import functions from folders properly, how to use if __name__ == '__main__', and how to use parquet.
+    * Learn how to import functions from folders properly, how to use `if __name__ == '__main__'`, and how to use parquet.
     * Created run_cleaning_pipeline.py to streamline the data cleaning pipeline.
 
-* ** **
-    * * *
+* **August 4, 2025**
+    * Created the order items notebook and found that no cleaning is needed for the order items table.
+    * Created `clean_order_items.py` to save the csv file to parquet and also as a validation that the data has been checked.
