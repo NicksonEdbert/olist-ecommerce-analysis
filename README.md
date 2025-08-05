@@ -26,3 +26,6 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
 * **August 4, 2025**
     * Created the order items notebook and found that no cleaning is needed for the order items table.
     * Created `clean_order_items.py` to save the csv file to parquet and also as a validation that the data has been checked.
+
+* **August 5, 2025**
+    * Added the order items processing script to the data cleaning pipeline and now we have the parquet files for both order items and products.
