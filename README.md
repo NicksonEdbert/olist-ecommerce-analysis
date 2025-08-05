@@ -29,3 +29,6 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
 
 * **August 5, 2025**
     * Added the order items processing script to the data cleaning pipeline and now we have the parquet files for both order items and products.
+    * Began the "Gold" analysis phase by answering the business question: "What are the top 5 best-selling product categories by revenue?"
+    * Learned how to merge data, group it, and sort it in pandas to get the final answer.
+    * Saved the analysis-ready data to a CSV file and connected it to Tableau to create a visual bar chart of the results.
