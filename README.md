@@ -32,3 +32,6 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
     * Began the "Gold" analysis phase by answering the business question: "What are the top 5 best-selling product categories by revenue?"
     * Learned how to merge data, group it, and sort it in pandas to get the final answer.
     * Saved the analysis-ready data to a CSV file and connected it to Tableau to create a visual bar chart of the results.
+
+* **August 6, 2025**
+    * Added a function to fill missing date values with Nat(Not a time).
