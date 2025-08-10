@@ -35,3 +35,13 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
 
 * **August 6, 2025**
     * Added a function to fill missing date values with Nat(Not a time).
+
+* **August 7, 2025**
+    * Completed the "Lab" and "Factory" phases for the `orders` table.
+    * Implemented logic to correctly parse all date columns, ensuring data integrity.
+    * Integrated the `orders` cleaning script into the main pipeline, creating a three-stage data processing workflow.
+
+* **August 9, 2025**
+    * Began a new time-series analysis to track the sales of the top 5 product categories.
+    * Enriched the analysis dataset by merging the orders table to include purchase dates.
+    * Created a new, filtered DataFrame containing only data for the top 5 categories.
