@@ -52,3 +52,12 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
     * Assembled the first version of the "Sales Performance Dashboard" by combining the KPI cards and key visualizations. 
     * Added interactivity to the dashboard, allowing it to be filtered by date. 
     * [![View on Tableau Public](https://img.shields.io/badge/Tableau-View_Dashboard-E97627?logo=tableau)](https://public.tableau.com/views/SalesPerformanceDashboard_17552803012150/SalesPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+* **August 16, 2025**
+    * Began migrating the data pipeline to a modern data stack using dbt (Data Build Tool) and DuckDB.
+    * **Objective:** Re-platform the existing Python-based cleaning process to a more robust, scalable, and professional data modeling workflow.
+    * **Today's Goals (45-Minute Session):**
+        * [x] **Environment Setup:** Install `dbt-core` and the `dbt-duckdb` adapter.
+        * [x] **Project Initialization:** Run `dbt init` to scaffold a new dbt project.
+        * [x] **Configuration:** Set up the `profiles.yml` to connect dbt to a local DuckDB database file.
+        * [x] **First Model:** Create an initial dbt "model" to begin migrating the cleaning logic for the `products` table.
