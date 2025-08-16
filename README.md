@@ -45,3 +45,10 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
     * Began a new time-series analysis to track the sales of the top 5 product categories.
     * Enriched the analysis dataset by merging the orders table to include purchase dates.
     * Created a new, filtered DataFrame containing only data for the top 5 categories.
+
+* **August 15, 2025**
+    * Created KPI worksheets in Tableau for "Total Revenue" and "Total Orders." 
+    * Built a new line chart visualization to show the trend of sales revenue over time. 
+    * Assembled the first version of the "Sales Performance Dashboard" by combining the KPI cards and key visualizations. 
+    * Added interactivity to the dashboard, allowing it to be filtered by date. 
+    * [![View on Tableau Public](https://img.shields.io/badge/Tableau-View_Dashboard-E97627?logo=tableau)](https://public.tableau.com/views/SalesPerformanceDashboard_17552803012150/SalesPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
