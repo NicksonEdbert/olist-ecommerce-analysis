@@ -1,0 +1,46 @@
+# olist_dbt/models/staging/sources.yml
+
+version: 2
+
+sources:
+  - name: raw_data
+    description: "The raw source data from the Olist e-commerce dataset."
+    database: olist  # This should match the database name in your profiles.yml
+    schema: main      # This should match the schema name in your profiles.yml
+    tables:
+      - name: orders
+        description: "The raw orders data."
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
+      - name: order_items
+        description: "The raw order items data."
+        columns:
+          - name: order_id
+            tests:
+              - not_null
+          - name: product_id
+            tests:
+              - not_null
+      - name: products
+        description: "The raw products data."
+        columns:
+          - name: product_id
+            tests:
+              - unique
+              - not_null
+      - name: customers
+        description: "The raw customers data."
+        columns:
+          - name: customer_id
+            tests:
+              - unique
+              - not_null
+      - name: payments
+        description: "The raw payments data for each order."
+        columns:
+          - name: order_id
+            tests:
+              - not_null

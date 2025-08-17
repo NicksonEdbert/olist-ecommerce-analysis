@@ -54,10 +54,19 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
     * [![View on Tableau Public](https://img.shields.io/badge/Tableau-View_Dashboard-E97627?logo=tableau)](https://public.tableau.com/views/SalesPerformanceDashboard_17552803012150/SalesPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 * **August 16, 2025**
-    * Began migrating the data pipeline to a modern data stack using dbt (Data Build Tool) and DuckDB.
-    * **Objective:** Re-platform the existing Python-based cleaning process to a more robust, scalable, and professional data modeling workflow.
-    * **Today's Goals (45-Minute Session):**
-        * [x] **Environment Setup:** Install `dbt-core` and the `dbt-duckdb` adapter.
-        * [x] **Project Initialization:** Run `dbt init` to scaffold a new dbt project.
-        * [x] **Configuration:** Set up the `profiles.yml` to connect dbt to a local DuckDB database file.
-        * [x] **First Model:** Create an initial dbt "model" to begin migrating the cleaning logic for the `products` table.
+    * Migrated the data cleaning pipeline to dbt and DuckDB.
+    * Initialized the dbt project, seeded raw data, and built staging & marts models.
+    * Added dbt `sources` to formally declare raw data tables.
+    * Implemented `unique` and `not_null` tests on source primary keys to ensure data quality.
+    * Configured the marts model to materialize as a `table` for better query performance.
+    * Generated and explored the dbt documentation site, including the project's lineage graph.
+    * Began RFM (Recency, Frequency, Monetary) analysis to segment customers.
+    * Profiled new `customers` and `payments` data to check for duplicates and nulls.
+    * Seeded new raw data and added corresponding staging models.
+    * Added data quality tests to the new source tables to automate profiling checks.
+    * Built the final `mart_rfm` model to calculate Recency, Frequency, and Monetary values for each customer.
+
+* **August 17, 2025**
+    * Corrected `DATE_DIFF` syntax for DuckDB in the `mart_rfm` model.
+    * Materialized the `mart_rfm` model as a table for improved query performance.
+    * Successfully ran the complete RFM pipeline.

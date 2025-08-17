@@ -7,6 +7,6 @@
 SELECT
     *
 FROM
-    {{ ref('products') }}
+    {{ source('raw_data', 'products') }}
 WHERE
     product_category_name IS NOT NULL
