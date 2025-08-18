@@ -70,3 +70,12 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
     * Corrected `DATE_DIFF` syntax for DuckDB in the `mart_rfm` model.
     * Materialized the `mart_rfm` model as a table for improved query performance.
     * Successfully ran the complete RFM pipeline.
+
+* **August 18, 2025**
+    * Began the final analysis phase of the RFM project: customer segmentation.
+    * **Today's Goals:**
+        * [x] **Create Analysis Notebook:** Set up a new notebook for RFM segmentation.
+        * [x] **Connect to Warehouse:** Load the `mart_rfm` data from DuckDB into pandas.
+        * [x] **Calculate RFM Scores:** Score customers on Recency, Frequency, and Monetary values using quantiles.
+        * [ ] **Define Customer Segments:** Map the RFM scores to descriptive segments (e.g., 'Best Customers', 'At Risk').
+        * [ ] **Analyze & Visualize Segments:** Explore the characteristics of each customer segment.
