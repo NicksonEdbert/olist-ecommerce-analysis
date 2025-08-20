@@ -77,5 +77,9 @@ The goal is to analyze the Olist dataset to derive insights into order fulfillme
         * [x] **Create Analysis Notebook:** Set up a new notebook for RFM segmentation.
         * [x] **Connect to Warehouse:** Load the `mart_rfm` data from DuckDB into pandas.
         * [x] **Calculate RFM Scores:** Score customers on Recency, Frequency, and Monetary values using quantiles.
-        * [ ] **Define Customer Segments:** Map the RFM scores to descriptive segments (e.g., 'Best Customers', 'At Risk').
-        * [ ] **Analyze & Visualize Segments:** Explore the characteristics of each customer segment.
+        * [x] **Define Customer Segments:** Map the RFM scores to descriptive segments (e.g., 'Best Customers', 'At Risk').
+        * [x] **Analyze & Visualize Segments:** Explore the characteristics of each customer segment.
+
+* **August 20, 2025**
+    * Completed the RFM analysis by creating visualizations and a summary table for each customer segment.
+    * **Next Session:** Review and interpret the final visualizations.
